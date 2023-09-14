@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background-color: grey;
+        }
+        nav{
+            border: 1px solid;
+            margin: 10px;
+            height: 70px;
+        }
+        footer{
+            border: 1px solid;
+            margin: 10px;
+        }
+        .container{
+            border: 1px solid red;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+        .left{
+            border: 1px solid;
+            margin: 10px;
+            height: 600px;
+        }
+        .center{
+            border: 1px solid;
+            margin: 10px;
+            height: 600px;
+        }
+        .right{
+            border: 1px solid;
+            margin: 10px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>My NavBar</h1>
+    </nav>
+    <div class="container">
+        <!-- left sidebar start -->
+        <aside class="left">
+            <h1>Left</h1>
+        </aside>
+        <!-- left sidebar end -->
+
+        <!-- main start -->
+        <main class="center">
+            <h1>Main Content</h1>
+        </main>
+        <!-- main end -->
+        <aside class="right">
+            <h1>Right</h1>
+        </aside>
+    </div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>
